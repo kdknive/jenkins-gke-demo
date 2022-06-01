@@ -47,6 +47,7 @@ kind: Service
 metadata:
   name: hello-app
 spec:
+  type: NodePort
   selector:
     app: hello-app
   ports:
