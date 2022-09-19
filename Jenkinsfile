@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    kubernetes {
+    any {
       // Without cloud, Jenkins will pick the first cloud in the list
       cloud "test-cluster"
       label "jenkins-agent"
