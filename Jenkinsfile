@@ -8,7 +8,7 @@ pipeline {
     }
   }
 
-//   stages {
+   stages {
 //     stage("Build") {
 //       steps {
 //         dir("hello-app") {
@@ -59,5 +59,5 @@ pipeline {
 //         }
 //       }
 //     }
-//  }
+  }
 }
