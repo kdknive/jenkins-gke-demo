@@ -2,6 +2,7 @@ pipeline {
   agent {
     any {
       // Without cloud, Jenkins will pick the first cloud in the list
+      defaultContainer "jnlp"
       cloud "kubernetes"
       label "jenkins-agent"
       yamlFile "jenkins-build-pod.yaml"
